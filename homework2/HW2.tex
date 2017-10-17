@@ -1,0 +1,42 @@
+\documentclass[12pt, a4paper]{IEEEtran}
+    \usepackage{amsmath}
+    \usepackage[pdftex]{graphicx}
+    \usepackage{float}
+    %设置四周
+    \usepackage[left=1in, right=1in]{geometry}
+    %设置字体
+    \usepackage{times}
+    \usepackage{mathptmx}
+    %设置行距
+    \linespread{0.3}
+    %开始
+    
+    \begin{document}
+    \centerline{\textbf{Name: Chen Chen}}
+    \centerline{\textbf{UID: 004710308}}
+    \centerline{\textbf{Dis 2A}}
+
+
+    \section*{section 2.6}
+\subsection*{6}
+$$\frac{\partial (In(xy)+x^2 y^3)}{\partial x}$$
+$$\Rightarrow (\frac{1}{x}+2xy^3)dx$$
+$$\frac{\partial (In(xy)+x^2 y^3)}{\partial y}$$
+$$\Rightarrow (\frac{1}{y}+3x^2y^2)dy$$
+$$dF=(\frac{1}{x}+2xy^3)dx+(\frac{1}{y}+3x^2y^2)dy$$
+
+
+\subsection*{8}
+$$\frac{\partial (tan^{-1}(\frac{x}{y})+y^4)}{\partial x}$$
+$$\Rightarrow (\frac{y}{x^2+y^2})dx$$
+$$\frac{\partial (tan^{-1}(\frac{x}{y})+y^4)}{\partial y}$$
+$$\Rightarrow (-\frac{x}{x^2+y^2}+4y^3)dy$$
+$$dF=(\frac{y}{x^2+y^2})dx+(-\frac{x}{x^2+y^2}+4y^3)dy$$
+
+\subsection*{16}
+$$\o(u,v)=\int \frac{2u}{u^2+v^2}du + g(v)$$
+$$=In|v^2+u^2|+g(v)$$
+$$\frac{\partial \o}{\partial v}=\frac{2v}{v^2+u^2}+g'(v)$$
+$$\Rightarrow g'(v)=0 \Rightarrow g(v)=C$$
+$$\o (u,v)=In|v^2+u^2|+C$$
+\end{document}
