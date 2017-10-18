@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  16 OCT 2017 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  17 OCT 2017 22:23
 entering extended mode
 **d:/Math-33B/homework2/HW2.tex
 (d:/Math-33B/homework2/HW2.tex
@@ -409,27 +409,45 @@ LaTeX Warning: Command \o invalid in math mode on input line 39.
 
 LaTeX Warning: Command \o invalid in math mode on input line 41.
 
+
+LaTeX Warning: Command \o invalid in math mode on input line 45.
+
+
+Overfull \hbox (55.51823pt too wide) detected at line 45
+\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x; y\OT1/ztmcm/m/n/12 ) = [] []\OML/ztmc
+m/m/it/12 dx \OT1/ztmcm/m/n/12 + \OML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 (\OML/zt
+mcm/m/it/12 y\OT1/ztmcm/m/n/12 ) = \OMS/ztmcm/m/n/12  [] \OT1/ztmcm/m/n/12 + \O
+ML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )
+ []
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 49.
+
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
+] [2
 
 ] (HW2.aux) ) 
 Here is how much of TeX's memory you used:
- 3538 strings out of 493320
- 52407 string characters out of 3146754
- 130800 words of memory out of 3000000
+ 3547 strings out of 493320
+ 52456 string characters out of 3146754
+ 132800 words of memory out of 3000000
  7017 multiletter control sequences out of 15000+200000
- 41274 words of font info for 87 fonts, out of 3000000 for 9000
+ 45624 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,25p,259b,133s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,6n,25p,259b,133s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/MiKTex/fonts/enc/dvips/base/8r.enc}<E:/MiKTex/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKTex
 /fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb><
 E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW2.pdf (1 page, 66653 bytes).
+Output written on HW2.pdf (2 pages, 72613 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

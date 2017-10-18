@@ -39,4 +39,29 @@ $$=In|v^2+u^2|+g(v)$$
 $$\frac{\partial \o}{\partial v}=\frac{2v}{v^2+u^2}+g'(v)$$
 $$\Rightarrow g'(v)=0 \Rightarrow g(v)=C$$
 $$\o (u,v)=In|v^2+u^2|+C$$
+
+\subsection*{24}
+$$\frac{(3y+y)(y+1)}{x^4}dx+\frac{-2(y+1)}{x^3}dy$$
+$$\o(x,y)=\int \frac{(3y+y)(y+1)}{x^4}dx +g(y)=-\frac{4y(1+y)}{3x^3}+g(y)$$
+$$\frac{\partial \o}{\partial y}=\frac{4+8y}{3x^3}+g'(y)=\frac{-2(y+1)}{x^3}$$
+$$g'(y)=\int (-\frac{2(y+1)}{x^3}-\frac{4+8y}{3x^3})dy$$
+$$g(y)=-\frac{2(\frac{7y^2}{2}+5y)}{3x^3}$$
+$$\o(x,y)=-\frac{2(\frac{7y^2}{2}+5y)}{3x^3}-\frac{4y(1+y)}{3x^3}$$
+
+\subsection*{29}
+$$M=y^2+2xy, N=-x^2$$
+$$\frac{\partial M}{\partial y}=2y+2x, \frac{\partial N}{\partial x}=-2x$$
+$$\mu=e^{-\int \frac{2(2x+y)}{y(2x+y)}dx}$$
+$$=e^{-2In y}=\frac{1}{y^2}$$
+$$(1+\frac{2x}{y})dx-\frac{x^2}{y^2}dy=0$$
+$$F(x,y)=\frac{xy+x^2}{y}=C$$
+$$\mu (y)=\frac{1}{y^2}$$
+
+\subsection*{38}
+$$y=vx, \frac{dy}{dx}=v+\frac{dv}{dx}$$
+$$\Rightarrow v+x\frac{dv}{dx}=\frac{v+v^3}{v^2-2}$$
+$$x\frac{dv}{dx}=\frac{3v}{v^2-2}$$
+$$\int (\frac{v^2-2}{3v})dv=\int \frac{dx}{x}$$
+$$\Rightarrow \frac{v^2}{6}-\frac{2}{3}In(v)=In(x)+In(C)$$
+$$y^{\frac{2}{3}}=Cx^{-\frac{1}{3}}e^{\frac{y^2}{6x^2}}$$
 \end{document}
