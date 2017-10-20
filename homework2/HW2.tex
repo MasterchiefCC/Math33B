@@ -2,30 +2,78 @@
     \usepackage{amsmath}
     \usepackage[pdftex]{graphicx}
     \usepackage{float}
+    \usepackage{ tipa }
+    \usepackage{ dsfont }
     %设置四周
     \usepackage[left=1in, right=1in]{geometry}
     %设置字体
     \usepackage{times}
     \usepackage{mathptmx}
     %设置行距
-    \linespread{0.3}
+    \linespread{0.7}
     %开始
     
     \begin{document}
     \centerline{\textbf{Name: Chen Chen}}
     \centerline{\textbf{UID: 004710308}}
     \centerline{\textbf{Dis 2A}}
+\section *{section 2.5}
+\subsection*{1}
+
+\subsection*{a}
+Let $y(t)$ is the amount of sugar in the tank.\\
+$\frac{dy}{dt}$ is the rate of change of the sugar in the tank
+$$\frac{dy}{dt}=0.6-3\frac{y}{100}$$
+$$\Rightarrow y(t)=20(1-e^{\frac{3t}{100}})$$
+$$y(20)=10(1-e^{-0.6})(lb)$$
+
+\subsection*{b}
+$$20(1-e^{\frac{3t}{100}})=15$$
+$$t=\frac{100In4}{3}(mm)$$ 
+
+\subsection*{c}
+$$t\rightarrow \infty, y(t)\rightarrow 20$$
+
+\subsection*{5}
+Let $y(t)$ is the amount of salt in the tank.\\
+$\frac{dy}{dt}$ is the rate of change of the salt in the tank
+$$\frac{dy}{dt}=2-\frac{x}{10+t}$$
+$$y(t)=10+t-\frac{100}{(10+t)}$$
+$$y(15)=21(lb)$$
+
+\subsection*{7}
+\subsection*{a}
+Let $y(t)$ is the amount of pollutant in the tank.\\
+$\frac{dy}{dt}$ is the rate of change of the pollutant in the tank.
+$$\frac{dy}{dt}=3-\frac{4x}{50+t}$$
+$$y(t)=\frac{3}{5}t+30-\frac{187500000}{(50+t)^4}$$
+\subsection*{b}
+$$\frac{dy}{dt}=-\frac{2x}{30-t}$$
+$$y(t)=\frac{215342}{9000000}(30-t)^2$$
+$$t=8.7868(min)$$
+
+\subsection*{14}
+Let $y(t)$ is the amount of salt in the tank $\textsci$ \\
+$\frac{dy}{dt}$ is the rate of change of the salt in the tank $\textsci$.
+$$\frac{dy}{dt}=ab-\frac{b}{V}y$$
+$$y(t)=aV+Ke^{-\frac{b}{V}t}$$
+Because $y(0)=0$
+$$K=-aV$$
+Let $z(t)$ is the amount of salt in the tank $\mathds{I}$ \\
+$\frac{dz}{dt}$ is the rate of change of the salt in the tank $\mathds{I}$.
+$$\frac{dz}{dt}=\frac{b}{V}x-\frac{b}{V}y$$
+$$y=aV-abte^{-\frac{b}{V}t}-aVe^{-\frac{b}{V}t}$$
 
 
-    \section*{section 2.6}
+
+
+\section*{section 2.6}
 \subsection*{6}
 $$\frac{\partial (In(xy)+x^2 y^3)}{\partial x}$$
 $$\Rightarrow (\frac{1}{x}+2xy^3)dx$$
 $$\frac{\partial (In(xy)+x^2 y^3)}{\partial y}$$
 $$\Rightarrow (\frac{1}{y}+3x^2y^2)dy$$
 $$dF=(\frac{1}{x}+2xy^3)dx+(\frac{1}{y}+3x^2y^2)dy$$
-
-
 \subsection*{8}
 $$\frac{\partial (tan^{-1}(\frac{x}{y})+y^4)}{\partial x}$$
 $$\Rightarrow (\frac{y}{x^2+y^2})dx$$
@@ -42,7 +90,11 @@ $$\o (u,v)=In|v^2+u^2|+C$$
 
 \subsection*{24}
 $$\frac{(3y+y)(y+1)}{x^4}dx+\frac{-2(y+1)}{x^3}dy$$
-$$\o(x,y)=\int \frac{(3y+y)(y+1)}{x^4}dx +g(y)=-\frac{4y(1+y)}{3x^3}+g(y)$$
+
+$$\o(x,y)=\int \frac{(3y+y)(y+1)}{x^4}dx +g(y)$$
+
+$$=-\frac{4y(1+y)}{3x^3}+g(y)$$
+
 $$\frac{\partial \o}{\partial y}=\frac{4+8y}{3x^3}+g'(y)=\frac{-2(y+1)}{x^3}$$
 $$g'(y)=\int (-\frac{2(y+1)}{x^3}-\frac{4+8y}{3x^3})dy$$
 $$g(y)=-\frac{2(\frac{7y^2}{2}+5y)}{3x^3}$$

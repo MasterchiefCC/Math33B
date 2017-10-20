@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  17 OCT 2017 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  19 OCT 2017 21:18
 entering extended mode
 **d:/Math-33B/homework2/HW2.tex
 (d:/Math-33B/homework2/HW2.tex
@@ -203,6 +203,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks22
 \@floatcapt=\box31
+) (E:\MiKTex\tex\latex\tipa\tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(E:\MiKTex\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (E:\MiKTex\tex\latex\tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 357.
+
+
+(E:\MiKTex\tex\latex\psnfss\ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)) (E:\MiKTex\tex\latex\base\ot1enc.def
+File: ot1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+))) (E:\MiKTex\tex\latex\doublestroke\dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
 (E:\MiKTex\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -271,20 +288,26 @@ LaTeX Info: Redefining \hbar on input line 50.
 ) (HW2.aux)
 \openout1 = `HW2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
+ (E:\MiKTex\tex\latex\tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 16.
 
--- Lines per column: 139 (approximate, difference = 1.31659pt).
+-- Lines per column: 60 (approximate, difference = 2.7176pt).
 (E:\MiKTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count111
@@ -374,80 +397,91 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 22
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 24
 .
 (E:\MiKTex\tex\latex\psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 22
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 24
 .
 
 (E:\MiKTex\tex\latex\psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 22
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 24
 .
 
 (E:\MiKTex\tex\latex\psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 22
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 24
 .
 
 (E:\MiKTex\tex\latex\psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 37.
+LaTeX Warning: Command \textsci invalid in math mode on input line 56.
+
+LaTeX Font Info:    Try loading font information for T3+ptm on input line 56.
+(E:\MiKTex\tex\latex\tipa\t3ptm.fd
+File: t3ptm.fd 2001/12/31 TIPA font definitions
+)
+
+LaTeX Warning: Command \textsci invalid in math mode on input line 56.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 39.
+LaTeX Warning: Command \textsci invalid in math mode on input line 57.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 41.
+LaTeX Warning: Command \textsci invalid in math mode on input line 57.
+
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 62.
+(E:\MiKTex\tex\latex\doublestroke\udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+
+LaTeX Warning: Command \o invalid in math mode on input line 85.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 45.
+LaTeX Warning: Command \o invalid in math mode on input line 87.
 
 
-Overfull \hbox (55.51823pt too wide) detected at line 45
-\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x; y\OT1/ztmcm/m/n/12 ) = [] []\OML/ztmc
-m/m/it/12 dx \OT1/ztmcm/m/n/12 + \OML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 (\OML/zt
-mcm/m/it/12 y\OT1/ztmcm/m/n/12 ) = \OMS/ztmcm/m/n/12  [] \OT1/ztmcm/m/n/12 + \O
-ML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 )
- []
+LaTeX Warning: Command \o invalid in math mode on input line 89.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 46.
+LaTeX Warning: Command \o invalid in math mode on input line 94.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 49.
+LaTeX Warning: Command \o invalid in math mode on input line 98.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] [2
+LaTeX Warning: Command \o invalid in math mode on input line 101.
 
-] (HW2.aux) ) 
+[2] (HW2.aux) ) 
 Here is how much of TeX's memory you used:
- 3547 strings out of 493320
- 52456 string characters out of 3146754
- 132800 words of memory out of 3000000
- 7017 multiletter control sequences out of 15000+200000
- 45624 words of font info for 96 fonts, out of 3000000 for 9000
+ 4667 strings out of 493320
+ 65284 string characters out of 3146754
+ 138895 words of memory out of 3000000
+ 8104 multiletter control sequences out of 15000+200000
+ 47506 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,25p,259b,133s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/MiKTex/fonts/enc/dvips/base/8r.enc}<E:/MiKTex/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKTex
-/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb><
-E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW2.pdf (2 pages, 72613 bytes).
+ 39i,6n,25p,259b,139s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/MiKTex/fonts/enc/dvips/base/8r.enc}<E:/MiKTex/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/public/doublestroke/dsrom12.
+pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKTex/fonts/type1/urw/symbo
+l/usyr.pfb><E:/MiKTex/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/u
+rw/times/utmr8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on HW2.pdf (2 pages, 84386 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
