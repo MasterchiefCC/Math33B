@@ -57,5 +57,33 @@
     $$\Rightarrow g(y)=2x\sqrt{y}+\frac{2}{3}y^{3/2}-2xy^{3/2}$$
     $$\o(x,y)=2x\sqrt{y}+\frac{2}{3}y^{3/2}$$
 
+    \subsection*{30}
+    $$\frac{\partial M}{\partial y}=2, \frac{\partial N}{\partial x}=3$$
+    $$\mu(x,y)=xy^2$$
+    $$2xy^3dx+3x^2y^2dy=0$$
+    $$\o(x,y)=\int 2xy^3 dx+g(y)=x^2y^3+g(y)$$
+    $$\frac{\partial \o}{\partial y}=3x^2y^2+g'(y)3x^2y^2$$
+    $$g'(y)=0, g(y)=C$$
+    $$\o(x,y)=x^2y^3+C$$
 
+    \subsection*{34}
+    $$f_1(x,y)=Inx-Iny, f_1(tx,ty)=Intx-Inty$$
+    So, $f_1$ is homgeneous to degree 0;
+    $$f_2(x,y)=1, f_2(tx, ty)=1$$
+    So $Inx-Iny$ and $1$ are homgeneous to degree 0;
+
+    \subsection*{40}
+    Let $y=x$ and $dy=vdx+xdv$
+    $$(xv+2xe^{-v})dx-x(vdx+xdv)=0$$
+    After canceling,
+    $$2e^{-v}-xdv=0$$
+    The integrating factor is $\frac{1}{x(2e^{-v})}$.
+    $$\int \frac{dx}{x}-\int \frac{dv}{2e^{-v}}=\int 0 dx$$
+    $$\Rightarrow In|x|-\frac{1}{2}e^v=C$$
+    $$\Rightarrow In|x|-\frac{1}{2}e^\frac{y}{x}=C$$
+
+    \subsection*{42}
+    $$\frac{dy}{dx}=-\frac{2x}{y}$$
+    $$\o(x,y)=2x^2+y^2=C$$
+    \vspace{6cm}
 \end{document}

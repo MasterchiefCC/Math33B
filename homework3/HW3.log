@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  23 OCT 2017 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  24 OCT 2017 16:24
 entering extended mode
 **d:/Math-33B/homework3/HW3.tex
 (d:/Math-33B/homework3/HW3.tex
@@ -455,24 +455,37 @@ LaTeX Warning: Command \o invalid in math mode on input line 58.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] (HW3.aux) ) 
+]
+
+LaTeX Warning: Command \o invalid in math mode on input line 64.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 65.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 67.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 87.
+
+[2] (HW3.aux) ) 
 Here is how much of TeX's memory you used:
- 4630 strings out of 493320
- 64799 string characters out of 3146754
+ 4635 strings out of 493320
+ 64829 string characters out of 3146754
  138895 words of memory out of 3000000
  8082 multiletter control sequences out of 15000+200000
- 44117 words of font info for 92 fonts, out of 3000000 for 9000
+ 46403 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,25p,259b,139s stack positions out of 5000i,500n,10000p,200000b,50000s
-{E:/MiKTex/fonts/enc/dvips/base/8r.enc}<E:/MiKTex/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKTex
-/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb><
-E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW3.pdf (1 page, 67901 bytes).
+ 39i,6n,25p,259b,139s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/MiKTex/fonts/enc/dvips/base/8r.enc}<E:/MiKTex/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKT
+ex/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb
+><E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on HW3.pdf (2 pages, 75409 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
