@@ -1,0 +1,61 @@
+\documentclass[12pt, a4paper]{IEEEtran}
+    \usepackage{amsmath}
+    \usepackage[pdftex]{graphicx}
+    \usepackage{float}
+    \usepackage{ tipa }
+    \usepackage{ dsfont }
+    %设置四周
+    \usepackage[left=1in, right=1in]{geometry}
+    %设置字体
+    \usepackage{times}
+    \usepackage{mathptmx}
+    %设置行距
+    \linespread{0.7}
+    %开始
+    
+    \begin{document}
+    \centerline{\textbf{Name: Chen Chen}}
+    \centerline{\textbf{UID: 004710308}}
+    \centerline{\textbf{Dis 2A}}
+
+    \section*{2.6}
+
+    \subsection*{4}
+    $$\frac{\partial F(x,y)}{\partial x}=x(x^2+y^2)^{-\frac{3}{2}}dx$$
+    $$\frac{\partial F(x,y)}{\partial x}=y(x^2+y^2)^{-\frac{3}{2}}dy$$
+    $$F'(x,y)=x(x^2+y^2)^{-\frac{3}{2}}dx+y(x^2+y^2)^{-\frac{3}{2}}dy$$
+
+    \subsection*{22}
+    $$\frac{1}{xy^2}(y^2-xy)dx+\frac{1}{xy^2}x^2dy=0$$
+    $$\Rightarrow (\frac{1}{x}+\frac{1}{y})dx+\frac{x}{y^2}dy=0$$
+    $$\o (x,y)=\int (\frac{1}{x}+\frac{1}{y})dx+g(y)$$
+    $$\Rightarrow \o(x,y)=-\frac{x}{y}+In|x|+g(y)$$
+    $$\frac{\partial \o}{\partial y}=\frac{x}{y^2}+g'(y)=\frac{x}{y^2}$$
+    $$g(y)=C$$
+    $$\o (x,y)=-\frac{x}{y}+In|x|+C$$
+
+    \subsection*{26}
+    Let $M=y$ and $N=(x^2y-x)$
+    $$\frac{\partial M}{\partial y}=1, \frac{\partial N}{\partial x}=2xy-1$$
+    $$\frac{1}{N}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})=-\frac{2}{x}$$
+    $$\Rightarrow I=\int -\frac{2}{x}dx=\frac{1}{x^2}$$
+    $$\frac{y}{x^2}dx+\frac{xy-1}{x}dy=0$$
+    $$\o(x,y)=\int \frac{y}{x^2}dx +g(y)=-\frac{y}{x}+g(y)$$
+    $$\frac{\partial \o}{\partial x}=-\frac{1}{x}+g'(y)=\frac{xy-1}{x}
+    $$
+    $$\Rightarrow g'(y)=y, g(y)=\frac{y^2}{2}$$
+    $$\o(x,y)=\frac{y}{x}+\frac{y^2}{2}$$
+    
+    \subsection*{28}
+    Let $M=2y$ and $N=(x+y)$
+    $$\frac{\partial M}{\partial y}=2, \frac{\partial N}{\partial x}=1$$
+    $$-\frac{1}{M}(\frac{\partial M}{\partial y}-\frac{\partial N}{\partial x})=\frac{1}{2y}$$
+    $$I =\int \frac{1}{2y} dy=\frac{1}{\sqrt{y}}$$
+    $$\frac{2y}{\sqrt{y}}dx+\frac{x+y}{\sqrt{y}}dy=0$$
+    $$\o (x,y)=\int \frac{2y}{\sqrt{y}}dx+g(y)=\frac{2xy}{\sqrt{y}}+g(y)$$
+    $$\frac{\partial \o}{\partial y}=3x\sqrt{y}+g'(y)=\frac{x+y}{\sqrt{y}}$$
+    $$\Rightarrow g(y)=2x\sqrt{y}+\frac{2}{3}y^{3/2}-2xy^{3/2}$$
+    $$\o(x,y)=2x\sqrt{y}+\frac{2}{3}y^{3/2}$$
+
+
+\end{document}
