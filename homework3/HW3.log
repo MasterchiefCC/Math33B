@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  24 OCT 2017 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  25 OCT 2017 15:03
 entering extended mode
 **d:/Math-33B/homework3/HW3.tex
 (d:/Math-33B/homework3/HW3.tex
@@ -424,49 +424,49 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 31.
+LaTeX Warning: Command \o invalid in math mode on input line 49.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 32.
+LaTeX Warning: Command \o invalid in math mode on input line 50.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 33.
+LaTeX Warning: Command \o invalid in math mode on input line 51.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 35.
+LaTeX Warning: Command \o invalid in math mode on input line 53.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 43.
+LaTeX Warning: Command \o invalid in math mode on input line 61.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 44.
+LaTeX Warning: Command \o invalid in math mode on input line 62.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 47.
-
-
-LaTeX Warning: Command \o invalid in math mode on input line 55.
-
-
-LaTeX Warning: Command \o invalid in math mode on input line 56.
-
-
-LaTeX Warning: Command \o invalid in math mode on input line 58.
+LaTeX Warning: Command \o invalid in math mode on input line 65.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
 
-LaTeX Warning: Command \o invalid in math mode on input line 64.
+LaTeX Warning: Command \o invalid in math mode on input line 73.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 65.
+LaTeX Warning: Command \o invalid in math mode on input line 74.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 67.
+LaTeX Warning: Command \o invalid in math mode on input line 76.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 87.
+LaTeX Warning: Command \o invalid in math mode on input line 82.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 85.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 105.
 
 [2] (HW3.aux) ) 
 Here is how much of TeX's memory you used:
@@ -483,7 +483,7 @@ b><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKT
 ex/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb
 ><E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW3.pdf (2 pages, 75409 bytes).
+Output written on HW3.pdf (2 pages, 78119 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
