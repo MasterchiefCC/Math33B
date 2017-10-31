@@ -1,0 +1,55 @@
+\documentclass[12pt, a4paper]{IEEEtran}
+    \usepackage{amsmath}
+    \usepackage[pdftex]{graphicx}
+    \usepackage{float}
+    \usepackage{ tipa }
+    \usepackage{ dsfont }
+    %设置四周
+    \usepackage[left=1in, right=1in]{geometry}
+    %设置字体
+    \usepackage{times}
+    \usepackage{mathptmx}
+    %设置行距
+    \linespread{0.7}
+    %开始
+    
+    \begin{document}
+    \centerline{\textbf{Name: Chen Chen}}
+    \centerline{\textbf{UID: 004710308}}
+    \centerline{\textbf{Dis 2A}}
+
+    \section*{4.1}
+    \subsection*{21}
+    $$\left[
+        \begin{matrix}
+            t^2&t|t|\\
+            2t&2|t|\\
+        \end{matrix}
+        \right]
+    =2|t|t^2-2tt|t|=0$$
+    So, it is linear dependent.
+
+    \subsection*{22}
+    
+    $$\left[
+        \begin{matrix}
+            e^t&e^{-3t}\\
+            e^t&-3e^{-3t}\\
+        \end{matrix}
+        \right]
+    =-4e^{-2t}$$
+    $$y(0)=1=C_1e^0+C_2e^{-3\times 0}=C_1+C_2=1$$
+    $$y'(0)=-2=C_1e^0-C_23e^{-3\times 0}=C_1-(-3)C_2$$
+    $$C_1=\frac{1}{4}, C_2=\frac{3}{4}$$
+
+    \subsection*{27}
+    $$y_2(t)=y_1(t)x=xt$$
+    $$(xt)'=x't+x, (x't+x)'=x''t+2x'$$
+    $$t^2(x''t+2x')-2t(x't+x)+2xt=0$$
+    $$\Rightarrow t^3x''=0 \Rightarrow x''=0\Rightarrow x=t\Rightarrow y_2(t)=t^2$$
+    $$t^2(2)-2t(2t)+2t^2=0$$
+    $$y=C_1t+C_2t^2$$
+    
+    
+
+    \end{document}
