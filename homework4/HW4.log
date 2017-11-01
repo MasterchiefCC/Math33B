@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  30 OCT 2017 20:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  31 OCT 2017 13:48
 entering extended mode
 **d:/Math-33B/homework4/HW4.tex
 (d:/Math-33B/homework4/HW4.tex
@@ -422,27 +422,31 @@ File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] (HW4.aux) ) 
 Here is how much of TeX's memory you used:
- 4627 strings out of 493320
- 64784 string characters out of 3146754
- 134895 words of memory out of 3000000
+ 4630 strings out of 493320
+ 64799 string characters out of 3146754
+ 137895 words of memory out of 3000000
  8082 multiletter control sequences out of 15000+200000
- 42409 words of font info for 89 fonts, out of 3000000 for 9000
+ 44117 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,25p,259b,139s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/MiKTex/fonts/enc/dvips/base/8r.enc}<E:/MiKTex/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 <E:/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTex/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTe
-x/fonts/type1/urw/times/utmr8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on HW4.pdf (1 page, 61918 bytes).
+ic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKTex
+/fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb><
+E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on HW4.pdf (1 page, 68111 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
