@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  31 OCT 2017 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.7.9)  2 NOV 2017 15:05
 entering extended mode
 **d:/Math-33B/homework4/HW4.tex
 (d:/Math-33B/homework4/HW4.tex
@@ -427,7 +427,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Overfull \hbox (17.84169pt too wide) detected at line 93
+\OML/ztmcm/m/it/12 [] \OT1/ztmcm/m/n/12 + \OML/ztmcm/m/it/12 p \OT1/ztmcm/m/n
+/12 + \OML/ztmcm/m/it/12 q \OT1/ztmcm/m/n/12 = (\OML/ztmcm/m/it/12  \OMS/ztmcm
+/m/n/12   \OML/ztmcm/m/it/12 []\OT1/ztmcm/m/n/12 )(\OML/ztmcm/m/it/12  \OMS/z
+tmcm/m/n/12   \OML/ztmcm/m/it/12 []\OT1/ztmcm/m/n/12 ) = \OML/ztmcm/m/it/12 [
+] \OMS/ztmcm/m/n/12   \OT1/ztmcm/m/n/12 2\OML/ztmcm/m/it/12 [] \OT1/ztmcm/m/n
+/12 + \OML/ztmcm/m/it/12 []
+ []
+
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+Overfull \hbox (2.59679pt too wide) detected at line 98
+\OMS/ztmcm/m/n/12 ) \OML/ztmcm/m/it/12 []e[]\OT1/ztmcm/m/n/12 (2 + \OML/ztmcm/
+m/it/12 []t\OT1/ztmcm/m/n/12 ) + \OML/ztmcm/m/it/12 p\OT1/ztmcm/m/n/12 (\OML/z
+tmcm/m/it/12 e[] \OT1/ztmcm/m/n/12 + \OML/ztmcm/m/it/12 []te[]\OT1/ztmcm/m/n/1
+2 ) \OMS/ztmcm/m/n/12   \OML/ztmcm/m/it/12 q\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/
+12 te[]\OT1/ztmcm/m/n/12 )
+ []
+
+
+Overfull \hbox (38.34709pt too wide) detected at line 100
+\OMS/ztmcm/m/n/12 ) \OT1/ztmcm/m/n/12 2\OML/ztmcm/m/it/12 []e[] \OT1/ztmcm/m/n
+/12 + \OML/ztmcm/m/it/12 []te[] \OMS/ztmcm/m/n/12   \OT1/ztmcm/m/n/12 2\OML/zt
+mcm/m/it/12 []e[] \OMS/ztmcm/m/n/12   \OT1/ztmcm/m/n/12 2\OML/ztmcm/m/it/12 [
+]te[] \OT1/ztmcm/m/n/12 + \OML/ztmcm/m/it/12 []te[] \OT1/ztmcm/m/n/12 = 0
+ []
+
+[2
 
 ] (HW4.aux) ) 
 Here is how much of TeX's memory you used:
@@ -444,9 +478,9 @@ ic/amsfonts/cm/cmex10.pfb><E:/MiKTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 ic/amsfonts/cm/cmsy10.pfb><E:/MiKTex/fonts/type1/urw/symbol/usyr.pfb><E:/MiKTex
 /fonts/type1/urw/times/utmb8a.pfb><E:/MiKTex/fonts/type1/urw/times/utmr8a.pfb><
 E:/MiKTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HW4.pdf (1 page, 68111 bytes).
+Output written on HW4.pdf (2 pages, 72407 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
