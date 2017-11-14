@@ -1,0 +1,117 @@
+\documentclass[12pt, a4paper]{IEEEtran}
+    \usepackage{amsmath}
+    \usepackage[pdftex]{graphicx}
+    \usepackage{float}
+    \usepackage{ tipa }
+    \usepackage{ dsfont }
+    %设置四周
+    \usepackage[left=1in, right=1in]{geometry}
+    %设置字体
+    \usepackage{times}
+    \usepackage{mathptmx}
+    %设置行距
+    \linespread{1.0}
+    %开始
+    
+    \begin{document}
+    \centerline{\textbf{Name: Chen Chen}}
+    \centerline{\textbf{UID: 004710308}}
+    \centerline{\textbf{Dis 2A}}
+    \begin{flushleft}
+    \section*{4}
+        $y(t)=Ae^{2t}$\\
+        $y'(t)=2Ae^{2t}$\\
+        $y''(t)=4Ae^{2t}$\\
+        plug into $y''+3y'-18y=18e^{2t}$
+        $4Ae^{2t}+6Ae^{2t}-18Ae^{2t}=18e^{2t}$\\
+        $-8A=18\Rightarrow A=-\frac{9}{4}$\\
+        $y(t)=-\frac{9}{4}e^{2t}$
+
+
+    \section*{6}
+    $y(t)=acos2t+bsin2t$\\
+    $y'(t)=-2asin2t+2bcos2t$\\
+    $y''(t)=-4acos2t-4bsin2t$\\
+    plug into $y''+9y=sin2t$\\
+    $-4acos2t-4bsin2t+9acost2t+9bsin2t=sin2t$\\
+    \vspace{1ex}
+    $\begin{cases}
+    5b=1\\
+    5a=0
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        a=0\\
+        b=\frac{1}{5}
+    \end{cases}$\\
+    $y(t)=\frac{1}{5}sin2t$
+
+
+    \section*{14}
+    $y(t)=At+B \Rightarrow y'(t)=A \Rightarrow y''(t)=0$\\
+    plug into $y''+5y'+4y=2+3t$\\
+    $4At+5A+4B=3t+2$\\
+    \vspace{1ex}
+    $\begin{cases}
+        4A=3\\
+        5A+4B=2
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        A=\frac{3}{4}\\
+        B=-\frac{7}{16}
+    \end{cases}$\
+    $y(t)=\frac{3}{4}t-\frac{7}{16}$
+
+    \section*{18}
+    $\lambda^2+3\lambda+2=0\Rightarrow (\lambda+1)(\lambda+2)=0$\\
+    $\lambda_1=-1, \lambda_2=-2$\\
+    $y_g(t)=C_1e^{-t}+C_2e^{-2t}$\\
+    $y_p(t)=Ae^{-4t}$\\
+    $y_p'(t)=-4Ae^{-4t}$\\
+    $y_p''(t)=16Ae^{-4t}$\\
+    plug into $y''+3y'+2y=3e^{-4t}$\\
+    $16Ae^{-4t}-12Ae^{-4t}+2Ae^{-4t}=3e^{-4t}$\\
+    $6A=3 \Rightarrow A=\frac{1}{2}$\\
+    $y(t)=C_1e^{-t}+C_2e^{-2t}+\frac{1}{2}e^{-4t}$\\
+    $y'(t)=-C_1e^{-t}-2C_2e^{-2t}-2e^{-4t}$\\
+    Because $y(0)=1$ and $y'(0)=0$,\\
+    $C_1=3, C_2=-\frac{5}{2}$\\
+    $y(t)=3e^{-t}-\frac{5}{2}e^{-2t}+\frac{1}{2}e^{-4t}$\\
+
+    \section*{22}
+    $\lambda^2+4\lambda+4=0\Rightarrow(\lambda+2)^2=0$\\
+    $\lambda=-2$\\
+    $y_g(t)=C_1e^{-2t}+C_2te^{-2t}$\\
+    $y_p(t)=At+B\Rightarrow y_p'(t)=A \Rightarrow y_p''(t)=0$\\
+    plug into $y''+4y'+4y=4-t$\\
+    $4A+4(At+B)=4-t$\\
+    \vspace{1ex}
+    $\begin{cases}
+        4A=-1\\
+        4B=5
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        A=-\frac{1}{4}\\
+        B=\frac{5}{4}
+    \end{cases}$
+    $y(t)=C_1e^{-2t}+C_2te^{-2t}-\frac{1}{4}t+\frac{5}{4}$\\
+    $y'(t)=-2C_1e^{-2t}+C_2e^{-2t}-2C_2te^{-2t}-\frac{1}{4}$\\
+    Because $y(0)=-1$ and $y'(0)=0$\\
+    $C_1=-\frac{9}{4}, C_2=\frac{17}{4}$\\
+    $y(t)=-\frac{9}{4}e^{-2t}+\frac{17}{4}te^{-2t}-\frac{1}{4}t+\frac{5}{4}$\\
+    
+    \section*{26}
+    $y(t)=R\left\{4e^{2it}\right\}=R\left\{4(cos2t+isin2t)\right\}$\\
+    $y_p(t)=Ate^{2it}$\\
+    $y_p'(t)=At^{2it}+2itAe^{2it}$\\
+    $y_p''(t)=4iAe^{2it}-4tAe^{2it}$\\
+    $4iAe^{2it}-4tAe^{2it}+4Ate^{2it}=4e^{2it}$\\
+    $A=-i$\\
+    $z(t)=-it(cos2t+isin2t)=-itcos2t+sin2t$\\
+    $R\left\{z(t)\right\}=y_p(t)=tsin2t$
+    
+
+    \end{flushleft}
+    \end{document}
