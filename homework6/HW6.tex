@@ -10,7 +10,7 @@
     \usepackage{times}
     \usepackage{mathptmx}
     %设置行距
-    \linespread{1.0}
+    \linespread{1.2}
     %开始
     
     \begin{document}
@@ -111,7 +111,82 @@
     $A=-i$\\
     $z(t)=-it(cos2t+isin2t)=-itcos2t+sin2t$\\
     $R\left\{z(t)\right\}=y_p(t)=tsin2t$
+
+    \section*{30}
+    $\alpha y_f''+\alpha py_f'+\alpha qy_f=\alpha f(t)$\\
+    $\beta y_g''+\beta y_g'+\beta y_g=\beta g(t)$\\
+    $(\alpha y_f+\beta y_g)''+p(\alpha py_f+\beta y_g)'+q(\alpha py_f+\beta y_g)=\alpha f(t)+\beta g(t)$\\
+    $\Rightarrow z(t)=\alpha f(t)+\beta g(t)$
+
+    \section*{34}
+    $y_1''+2y_1'+y_1=3$\\
+    $y_2''+2y_2'+y_2=-e^{-t}$\\
+    $y_{1p}=A,y_{1p}'=0,y_{1p}'=0$\\
+    $A=3\Rightarrow y_{1p}=3$\\
+    $y_{2p}=Ate^{-t}$\\
+    $y_{2p}'=(A-At)e^{-t}$\\
+    $y_{2p}''=(At-A)e^{-t}$\\
+    $(At-A)e^{-t}+(2A-2At)e^{-t}+Ate^{-t}=-e^{-t}$\\
+    $A=-1\Rightarrow y_{2p}=-e^{-t}$\\
+    $y(t)=3-e^{-t}$\\
+    
+    \section*{36}
+    $y_1''+2y_1'+2y_1=3cost$\\
+    $y_2''+2y_2'+2y_2=-sint$\\
+    $z(t)=Ae^{it},z'(t)=Aie^{it},z''(t)=i^2Ae^{it}$\\
+    plug into $z''+2z'+2z=e^{it}$\\
+    $A(i^2+2i+2)e^{it}=e^{it}$\\
+    $A=\frac{1-2i}{5}\Rightarrow z(t)=\frac{1-2i}{5}(cost+isint)$\\
+    $\frac{y_{1p}}{3}=R\left\{z(t)\right\}\frac{1}{5}cost+\frac{2}{5}sint$\\
+    $y_{2p}=im\left\{z(t)\right\}=\frac{1}{5}sint-\frac{2}{5}cost$
+    $y(t)=cost+sint$
+
+    \section*{41}
+    $y_p(t)=(At^2+Bt+C)e^{-2t}$\\
+    $y_p'(t)=(-2At^2+2At-2Bt+B-2C)e^{-2t}$\\
+    $y_p''(t)=(4At^2-8At+4Bt+2A-4B-4C)e^{-2t}$\\
+    plug into $y''+2y'+y=t^2e^{-2t}$\\
+    $\left\{(4At^2-8At+4Bt+2A-4B-4C)+\right .$\\
+    $(-2At^2+2At-2Bt+B-2C)+$\\
+    $\left .(At^2+Bt+C)\right\}e^{-2t}=t^2e^{-2t}$\\
+    $At^2-4At+Bt+2A-2B+C=t^2$\\
+    $\begin{cases}
+        A=1\\
+        -4A+B=0\\
+        2A-2B+C=0
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        A=1\\
+        B=4\\
+        C=6
+    \end{cases}$\\
+    $y(t)=(t^2+4t+6)e^{-2t}$
+
+\section*{44}
+$y_p(t)=(bsint+acost)e^{-2t}$\\
+$y_p'(t)=\left\{(-a-2b)sint+(-2a+b)cost\right\}e^{-2t}$\\
+$y_p''(t)=\left\{(4a+3b)sint+(3a-4b)cost\right\}e^{-2t}$\\
+plug into $y''+2y'+2y=e^{-2t}sint$\\
+$\left\{(4a+3b)sint+(3a-4b)cost\right .+$\\
+$((-2a-4b)sint+(-4a+2b)cost)$+\\
+$\left . (2bsint+2acost)\right\}e^{-2t}=e^{-2t}sint$\\
+$\Rightarrow (2a+b)sint+(a-2b)cost=sint$\\
+$\begin{cases}
+    2a+b=1\\
+    a-2b=0
+\end{cases}
+\Rightarrow
+\begin{cases}
+    a=\frac{2}{5}\\
+    b=\frac{1}{5}
+\end{cases}$\\
+$y(t)=\frac{2}{5}cost+\frac{1}{5}sint$
+
+
+    
+        
     
 
-    \end{flushleft}
-    \end{document}
+\end{flushleft}
+\end{document}
