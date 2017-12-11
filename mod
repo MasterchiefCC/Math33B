@@ -15,7 +15,7 @@
     
     \begin{document}
     \centerline{\textbf{Name: Chen Chen}}
-    \centerline{\textbf{UID: 004710308}}
+    
     \centerline{\textbf{Dis 2A}}
     \begin{flushleft}
 
